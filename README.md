@@ -1,4 +1,4 @@
-# slaythecli
+# SlayTheCli
 SlayTheCli: A console client for the game Slay The Spire
 
 This repository is a tutorial on how to use the SlayTheCli client/server in order to play Slay the Spire from a console.
@@ -55,8 +55,10 @@ python3 /home/foo/spirecomm/slaythecli.py server
 ```
 If everything is working fine, you should see a message saying "ready"
 
+9. For updates, just use a "git pull" command from the 2 folders and regenerate a CommunicationMod.jar file if there was any change.
+
 # Start Slay the CLI
-  
+
 1. Start Slay the Spire with only BaseMod and CommunicationMod ticked (Other mods may work but it's not guaranteed)
 2. Check that CommunicationMod started with the following logs in the ModTheSpire logs
 ```
@@ -79,3 +81,7 @@ And that's it
 * Sometimes you may encounter exception error from the cli, in these case, just use ctrl+c until you leave the program. Normally you will be able to reopen the client just after (if the exception can be reproduced, open an issue, I will try to fix the bug as soon as possible)
 
 If you encounter any bugs, don't hesitate to open an issue on this repository with some logs or explanation.
+
+# A last word
+SlayTheCli tries to be as user friendly as possible by hiding indexes and commands sent to the game. But you can still send direct commands from the "other" command which allows to directly enter your command.
+I also invite you to read the documentation from the CommunicationMod : https://github.com/ForgottenArbiter/CommunicationMod and you can add the option --verbosity to slaythecli client in order to see the commands sent to server when you play
