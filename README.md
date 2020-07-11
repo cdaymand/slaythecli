@@ -7,10 +7,10 @@ You will need a copy of Slay the Spire (which by the way is one of the greatest 
 * BaseMod
 
 # Installation
-1. Clone this repository and then get the 2 git submodules needed by SlayTheCli
+1. Clone this repository, go inside the slaythecli folder and then get the 2 git submodules needed by SlayTheCli
 ```bash
-git clone --branch slaythecli https://github.com/cdaymand/spirecomm.git
-git clone --branch slaythecli https://github.com/cdaymand/CommunicationMod.git
+cd slaythecli
+git submodule update -i
 ```
 2. Install maven on your system in order to build a version of the CommunicationMod which adds description to card.
 3. Go to the CommunicationMod repository folder and generate the modified version of CommunicationMod.jar
@@ -33,7 +33,7 @@ pip3 install -r slaythecli_requirements.txt
 example:
 ```
 #Sat Jul 11 13:50:20 CEST 2020
-command=python3 /home/foo/spirecomm/slaythecli.py server
+command=python3 /home/foo/slaythecli/spirecomm/slaythecli.py server
 runAtGameStart=true
 ```
 The slaythecli.py python3 program takes some arguments
@@ -51,11 +51,16 @@ optional arguments:
 ```
 8. You can try running the server yourself :
 ```
-python3 /home/foo/spirecomm/slaythecli.py server
+python3 /home/foo/slaythecli/spirecomm/slaythecli.py server
 ```
 If everything is working fine, you should see a message saying "ready"
 
-9. For updates, just use a "git pull" command from the 2 folders and regenerate a CommunicationMod.jar file if there was any change.
+9. To get latest version of the program you have to do the following commands in the slaythecli repository :
+```
+git pull
+git submodule update -i
+```
+If CommunicationMod submodule changed, you will have to regenerate the jar file with maven
 
 # Start Slay the CLI
 
