@@ -1,6 +1,8 @@
 # SlayTheCli
 SlayTheCli: A console client for the game Slay The Spire
 
+![](slaythecli.gif)
+
 This repository is a tutorial on how to use the SlayTheCli client/server in order to play Slay the Spire from a console.
 You will need a copy of Slay the Spire (which by the way is one of the greatest video game of all time) and to install 2 mods.
 * CommunicationMod
@@ -89,4 +91,5 @@ If you encounter any bugs, don't hesitate to open an issue on this repository wi
 
 # A last word
 SlayTheCli tries to be as user friendly as possible by hiding indexes and commands sent to the game. But you can still send direct commands from the "other" command which allows to directly enter your command.
+
 I also invite you to read the documentation from the CommunicationMod : https://github.com/ForgottenArbiter/CommunicationMod and you can add the option --verbosity to slaythecli client in order to see the commands sent to server when you play
