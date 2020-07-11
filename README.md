@@ -7,7 +7,7 @@ You will need a copy of Slay the Spire (which by the way is one of the greatest 
 * BaseMod
 
 # Installation
-1. You will need to clone the sources of 2 github repositories forked from ForgottenArbiter (Big thanks to him for his work : https://github.com/ForgottenArbiter) on the branch slaythecli. As I will continue to work a lot on these 2 repositories, currently you will have to use my branches to access the last version of SlayTheCli. Once finished I will send a merge request to ForgottenArbiter to make the installation process easier. 
+1. Clone this repository and then get the 2 git submodules needed by SlayTheCli
 ```bash
 git clone --branch slaythecli https://github.com/cdaymand/spirecomm.git
 git clone --branch slaythecli https://github.com/cdaymand/CommunicationMod.git
