@@ -1,6 +1,6 @@
 [submodule "CommunicationMod"]
 	path = CommunicationMod
-	url = git@github.com:cdaymand/CommunicationMod.git
+	url = https://github.com/cdaymand/CommunicationMod.git
 [submodule "spirecomm"]
 	path = spirecomm
-	url = git@github.com:cdaymand/spirecomm.git
+	url = https://github.com/cdaymand/spirecomm.git
